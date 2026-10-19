@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Full-Stack Web Development — Tədris Planı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 15mm 15mm 15mm;
+        }
+        * {
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+            color: #111827;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+            line-height: 1.45;
+        }
+        .header {
+            border-bottom: 2px solid #1f2937;
+            padding-bottom: 12px;
+            margin-bottom: 18px;
+        }
+        .header h1 {
+            font-size: 19pt;
+            margin: 0 0 5px 0;
+            color: #111827;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        .meta-line {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            color: #4b5563;
+            font-size: 9.5pt;
+            margin-top: 6px;
+        }
+        .meta-line span strong {
+            color: #111827;
+        }
+        .module {
+            margin-bottom: 20px;
+            page-break-inside: auto;
+        }
+        .module-title {
+            font-size: 11pt;
+            font-weight: 700;
+            background: #f3f4f6;
+            color: #111827;
+            padding: 6px 10px;
+            border-left: 4px solid #374151;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+            border-radius: 0 4px 4px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9.5pt;
+            margin-bottom: 8px;
+        }
+        th {
+            background: #f9fafb;
+            color: #374151;
+            text-align: left;
+            padding: 6px 10px;
+            border: 1px solid #e5e7eb;
+            font-weight: 600;
+            font-size: 8.5pt;
+            text-transform: uppercase;
+        }
+        td {
+            padding: 5px 10px;
+            border: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+        tr {
+            page-break-inside: avoid;
+        }
+        tr:nth-child(even) td {
+            background-color: #fafafa;
+        }
+        .col-num {
+            width: 80px;
+            font-weight: 700;
+            color: #111827;
+            white-space: nowrap;
+        }
+        .col-topics ul {
+            margin: 0;
+            padding-left: 16px;
+        }
+        .col-topics li {
+            margin-bottom: 2px;
+            color: #374151;
+        }
+        .review-row td {
+            background-color: #f0fdf4 !important;
+            border-top: 1.5px solid #86efac;
+            border-bottom: 1.5px solid #86efac;
+        }
+        .review-row .col-num {
+            color: #166534;
+            font-weight: 800;
+        }
+        .self-study-badge {
+            display: inline-block;
+            background: #dcfce7;
+            color: #15803d;
+            font-size: 7.5pt;
+            font-weight: 700;
+            padding: 1px 6px;
+            border-radius: 4px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Full-Stack Development — Tədris Planı (Sillabus)</h1>
+        <div class="meta-line">
+            <span><strong>İxtisas:</strong> Full-Stack Web Developer</span>
+            <span><strong>Təlimçi:</strong> Fariz Esedzade</span>
+            <span><strong>Müddət:</strong> 9 Ay (108 Dərs)</span>
+            <span><strong>Qrafik:</strong> Həftədə 3 dərs (B.e, Ç.a, Ş.)</span>
+            <span><strong>Struktur:</strong> 100 Əsas Dərs + 8 Review & Buffer Dərsi</span>
+        </div>
+    </div>
+
+    <div class="module">
+        <div class="module-title">Modul 1: HTML + CSS + Libraries</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 1</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Veb necə işləyir? Brauzer, Server, Fayllar</li><li>HTML nədir? İlk index.html faylı</li><li>Əsas mətn teqləri: h1-h6, p, a (linklər), img (şəkillər)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 2</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Siyahılar: Nizamsız (ul) və Nizamlı (ol) siyahılar, li</li><li>Cədvəllər (Tables): table, tr, td, th məntiqi</li><li>Dünənki teqlərlə birgə sadə məlumat səhifəsi yığmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 3</td>
+            <td class="col-topics">
+                <ul>
+                    <li>HTML Formaları (Forms): form, input növləri (text, email, password)</li><li>Form elementləri: label, button, textarea, placeholder, required</li><li>Həftəlik Təcrübə: Qeydiyyat və Əlaqə forması yığmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 4</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Semantic HTML nədir və niyə vacibdir? (SEO və oxunaqlılıq)</li><li>Skelet teqləri: header, nav, main, section, article, footer</li><li>Strukturlu, təmiz HTML səhifə maketi qurmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 5</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS nədir? Üslub vermək (Inline, Internal, External)</li><li>Selektorlar: Element, Class (.), ID (#) fərqləri</li><li>Rənglər (HEX, RGB), şrift ölçüləri (font-size, font-family)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 6</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS Box Model (Tək və Əsas Mövzu): Content, Padding, Border, Margin</li><li>box-sizing: border-box nədir və niyə həmişə yazılır?</li><li>Həftəlik Təcrübə: Kart komponenti yığaraq Box Modeli mənimsəmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 7</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Vizual CSS: Fonlar (background-color, background-image)</li><li>Kənarlar: border-radius, box-shadow və text-shadow</li><li>Hover effekti: :hover, :focus, :active pseudo-class-ları</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 8</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS Display xassəsi: block, inline, inline-block</li><li>Görünməzlik: display: none vs visibility: hidden</li><li>Sadə menyu barları və düymələr üzərində tətbiq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 9</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS Positioning (Tək Mövzu): static, relative, absolute</li><li>Sabit və yapışqan elementlər: fixed və sticky</li><li>z-index məntiqi: qatların bir-birinin üstünə çıxması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 10</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS Flexbox Əsasları: Niyə float yox, Flexbox?</li><li>Flex Container: display: flex, flex-direction</li><li>Hizalama: justify-content (üfüqi) və align-items (şaquli)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 11</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Flexbox İrəli: flex-wrap, gap, flex-grow, flex-shrink</li><li>Flexbox ilə Məşhur Həllər: Mərkəzləmə (tam ortalama)</li><li>Flexbox ilə real Navbar (loqo solda, linklər sağda)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 12</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Böyük Flexbox Praktikası: Məhsul vitrini (Product Grid)</li><li>Flex kartlar içində düymələri aşağı bərabərləşdirmək</li><li>Müəllimlə birgə sinifdə canlı tətbiq və xətaların həlli</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 13</td>
+            <td class="col-topics">
+                <ul>
+                    <li>CSS Grid Əsasları: İki ölçülü düzülüş məntiqi</li><li>grid-template-columns, grid-template-rows, gap</li><li>repeat() və fr (fraction) vahidləri ilə sadə cədvəl maketi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 14</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Media Queries: Responsive (Mobil uyğun) dizayn nədir?</li><li>@media (max-width / min-width) sintaksisi</li><li>Mobile-First fəlsəfəsi: Əvvəl mobil, sonra desktop</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 15 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 1 Üzrə Təkrar & Praktika (Buffer 1): Flexbox, Grid və Responsive maketlərin möhkəmləndirilməsi</li><li>Tələbələrin çətinlik çəkdiyi məqamlar üzrə sual-cavab, canlı kodlaşdırma və fərdi dəstək</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> Figma ilə tanışlıq, dizayn faylından rəng və ölçülərin götürülməsi bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 16</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Tailwind CSS Nədir? Niyə müasir dünyada 1 nömrədir?</li><li>Utility-first fəlsəfəsi: CSS yazmadan siniflərlə stil vermək</li><li>Əsas siniflər: p-4, m-2, flex, bg-blue-500, text-white</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 17</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Tailwind ilə Responsive Dizayn: sm:, md:, lg:, xl: prefiksləri</li><li>Tailwind ilə Flexbox, Grid və Hover vəziyyətləri</li><li>Tailwind ilə tam bir Landing Page bölməsi yığmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 18</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Bootstrap 5 ilə qısa tanışlıq: Grid və hazır komponentlər</li><li>Git və GitHub Əsasları: Kodu GitHub reposuna yükləmək</li><li>Netlify / Vercel ilə layihəni internetdə canlıya atmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 2: JS + JS Advanced + Full API Websites</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 19</td>
+            <td class="col-topics">
+                <ul>
+                    <li>JavaScript nədir? Brauzer konsolunda ilk kod</li><li>Dəyişənlər: let, const (və niyə var artıq istifadə edilmir)</li><li>Əsas Data Tipləri: String, Number, Boolean, undefined, null</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 20</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Riyazi Operatorlar (+, -, *, /, %, **)</li><li>Müqayisə Operatorları (== vs ===, != vs !==, >, <)</li><li>Məntiqi Operatorlar (&&, ||, !)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 21</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Şərt Strukturları: if, else if, else</li><li>Ternary Operator (qısa şərt forması)</li><li>switch / case strukturu və praktiki məsələlər</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 22</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Dövrlər (Loops): for loop sintaksisi və addımları</li><li>while və do-while dövrləri</li><li>break və continue əmrləri ilə dövrü idarə etmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 23</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Funksiyalar (Functions): Function Declaration və Expression</li><li>Parametrlər, arqumentlər və return dəyəri</li><li>Default parametrlər və sadə kalkulyator funksiyaları</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 24</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Müasir Funksiyalar: Arrow Functions (=>)</li><li>Scope anlayışı: Global scope, Function scope, Block scope</li><li>Həftəlik Təkrarlama və Funksiya tapşırıqları</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 25</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Massivlər (Arrays): Yaradılması və indekslə müraciət</li><li>Əsas metodlar: push, pop, unshift, shift</li><li>splice və slice metodları ilə element kəsmək/əlavə etmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 26</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Müasir Array Metodları 1: forEach dövrü</li><li>map() metodu: Məlumatı dəyişdirib yeni massiv almaq</li><li>filter() metodu: Şərtə uyğun elementləri süzmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 27</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Müasir Array Metodları 2: find, findIndex, some, every</li><li>reduce() metodunun ən sadə izahı (cəmləmə)</li><li>Spread operator (...) və Array Destructuring</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 28</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Obyektlər (Objects): Key-Value strukturu</li><li>Obyekt xassələrinə müraciət: dot notation vs bracket notation</li><li>Obyekt metodları və Object Destructuring</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 29</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Obyektlər massivi (Array of Objects) ilə işləmək</li><li>Object.keys(), Object.values(), Object.entries()</li><li>String metodları (includes, toUpperCase, split, trim) və Math obyekti</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 30</td>
+            <td class="col-topics">
+                <ul>
+                    <li>DOM Giriş: Document Object Model nədir?</li><li>Element seçmək: document.querySelector və querySelectorAll</li><li>Elementin məzmununu dəyişmək: textContent və innerHTML</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 31</td>
+            <td class="col-topics">
+                <ul>
+                    <li>DOM Hadisələri (Events): addEventListener məntiqi</li><li>Əsas hadisələr: click, input, change, submit</li><li>Event obyekti (e.target) və preventDefault()</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 32</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Dinamik Elementlər: document.createElement()</li><li>Elementləri səhifəyə əlavə etmək (appendChild, prepend) və silmək (remove)</li><li>Element stillərini və classList (add, remove, toggle) idarə etmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 33</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Böyük DOM Praktikası: İnteraktiv Todo List tətbiqi</li><li>Tapşırıq əlavə etmək, tamamlandı işarələmək, silmək</li><li>Sinifdə canlı yazılış və tələbə dəstəyi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 34</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Brauzer Yaddaşı: localStorage və sessionStorage</li><li>JSON nədir? JSON.stringify() və JSON.parse()</li><li>Todo List məlumatlarını localStorage-də yadda saxlamaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 35 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 2 Üzrə Təkrar & Praktika (Buffer 2): JavaScript Əsasları, Funksiyalar, Array Metodları və DOM təkrarı</li><li>LocalStorage və Todo List tətbiqi üzrə kod icmalı (Code Review) və sual-cavab</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> Müasir ES6+ (Optional Chaining, Nullish Coalescing) və sadə Class anlayışı</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 36</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Asinxronluq nədir? Sinxron vs Asinxron kod icrası</li><li>setTimeout və setInterval</li><li>Callback anlayışı və niyə Promise-ə ehtiyac yarandı?</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 37</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Promise nədir? (Pending, Resolved, Rejected vəziyyətləri)</li><li>.then(), .catch() və .finally() zənciri</li><li>Sadə Promise nümunələri ilə məşq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 38</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Müasir Asinxronluq: async / await sintaksisi</li><li>try / catch ilə xətaları tutmaq və idarə etmək</li><li>Daha təmiz və oxunaqlı asinxron kod yazmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 39</td>
+            <td class="col-topics">
+                <ul>
+                    <li>API nədir? Client-Server əlaqəsi və JSON cavabları</li><li>Fetch API ilə GET sorğusu (JSONPlaceholder ilə iş)</li><li>API-dən gələn məlumatı DOM-da səliqəli kartlar kimi göstərmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 40</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Axios Kitabxanası: Fetch-dən fərqləri və üstünlükləri</li><li>Axios ilə GET və POST sorğuları göndərmək</li><li>Loading (Yüklənir...) və Error (Xəta) vəziyyətlərini idarə etmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 41</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Açıq API ilə Real Layihə: OpenWeather (Hava) və ya Film API</li><li>Axtarış inputu ilə dinamik sorğu göndərmək</li><li>Gələn nəticələri ekranda interaktiv göstərmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 42</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Böyük JS Layihə Günü: Tam API Veb Saytının tamamlanması</li><li>Axtarış, kateqoriyalara görə filtrləmə və favoritlərin saxlanılması</li><li>Kod icmalı və Netlify-a deploy</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 3: React + RTK</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 43</td>
+            <td class="col-topics">
+                <ul>
+                    <li>React nədir? Niyə təmiz JS yox, React?</li><li>Single Page Application (SPA) və Virtual DOM anlayışı</li><li>Vite ilə ilk React layihəsini yaratmaq və qovluq strukturu</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 44</td>
+            <td class="col-topics">
+                <ul>
+                    <li>JSX Sintaksisi: HTML içində JavaScript yazmaq</li><li>Funksional Komponentlər yaratmaq və təkrar istifadə</li><li>Komponentlərin parçalanması (Header, Footer, Card)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 45</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Props: Məlumatı valideyn komponentdən övlada ötürmək</li><li>Props destructuring və default dəyərlər</li><li>children prop-u və kart şablonları qurmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 46</td>
+            <td class="col-topics">
+                <ul>
+                    <li>useState Hook (Ən Əsas Hook): Komponent vəziyyəti</li><li>Sadə sayğac (counter) və toggle (açıb-bağlama) nümunəsi</li><li>State dəyişəndə komponentin yenidən render olması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 47</td>
+            <td class="col-topics">
+                <ul>
+                    <li>useState ilə Formalar: İki tərəfli əlaqə (Controlled Inputs)</li><li>Form submit hadisəsi və məlumatların toplanması</li><li>Şərti Render (Conditional Rendering): && və ternary ilə</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 48</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Siyahıların Render Edilməsi: .map() ilə komponent siyahısı</li><li>key prop-u nədir və niyə unikal olmalıdır?</li><li>Praktika: React ilə interaktiv Todo List yığmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 49</td>
+            <td class="col-topics">
+                <ul>
+                    <li>useEffect Hook: Yan təsirlər (Side Effects) nədir?</li><li>Dependency array: Boş massiv [], dolu massiv və fərqləri</li><li>Səhifə ilk açılanda kodun icra olunması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 50</td>
+            <td class="col-topics">
+                <ul>
+                    <li>useEffect ilə API Sorğuları (Axios)</li><li>Loading indikatoru və xətaların idarəsi</li><li>API-dən gələn məlumatların useState ilə saxlanması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 51</td>
+            <td class="col-topics">
+                <ul>
+                    <li>useRef Hook: DOM elementlərinə birbaşa müraciət (focus, scroll)</li><li>useReducer Hook ilə sadə tanışlıq (mürəkkəb state üçün)</li><li>Həftəlik praktika: Dinamik məhsul axtarışı komponenti</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 52</td>
+            <td class="col-topics">
+                <ul>
+                    <li>React Router v6: Səhifə yenilənmədən səhifələr arası keçid</li><li>BrowserRouter, Routes, Route, Link və NavLink</li><li>Layout şablonu (Navbar və Footer hər səhifədə sabit)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 53</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Dinamik Marşrutlar: useParams hook (/products/:id)</li><li>useNavigate hook ilə kod vasitəsilə səhifə dəyişmək</li><li>404 Not Found səhifəsi yaratmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 54</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Context API: Prop Drilling probleminin həlli</li><li>createContext, useContext və Provider məntiqi</li><li>Qlobal Dark/Light Theme və ya Sadə Səbət Context-i qurmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 55 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 3 Üzrə Təkrar & Praktika (Buffer 3): React Əsasları, useState, useEffect, Router və Context API təkrarı</li><li>Komponent arxitekturasında xətaların aradan qaldırılması və canlı debugging sessiyası</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> Custom Hook anlayışı və fərdi hook-ların yazılması bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 56</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Redux Toolkit Giriş: Niyə böyük layihələrdə Redux lazımdır?</li><li>Store və Slice anlayışları: initialState və reducers</li><li>useSelector (datanı oxumaq) və useDispatch (action göndərmək)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 57</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Redux Toolkit ilə Səbət (Cart) Sistemi qurmaq</li><li>Məhsul əlavə etmək, sayını artırmaq/azaltmaq, silmək</li><li>Redux DevTools ilə state dəyişikliklərini izləmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 58</td>
+            <td class="col-topics">
+                <ul>
+                    <li>RTK Query Əsasları: API idarəetməsini asanlaşdırmaq</li><li>createApi ilə endpoint yaratmaq (useGetProductsQuery)</li><li>Avtomatik keşləmə və yüklənmə vəziyyətləri</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 59</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Müasir React Komponent Kitabxanaları (Lucide icons, Headless UI)</li><li>Tailwind ilə React komponentlərini sürətli stilləndirmək</li><li>Toast bildirişləri (react-toastify və ya sonner)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 60</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Böyük React Layihəsi: Redux Toolkit ilə tam E-commerce tətbiqi</li><li>Məhsul kataloqu, filtr, detal səhifəsi və səbət axını</li><li>Layihənin Vercel-də yayımlanması</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 4: Frontend Development with React and TypeScript</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 61</td>
+            <td class="col-topics">
+                <ul>
+                    <li>TypeScript nədir? JavaScript-dən fərqləri və üstünlükləri</li><li>Əsas primitiv tiplər: string, number, boolean, any</li><li>Massivlərin və obyektlərin tiplənməsi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 62</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Interface və Type Alias anlayışları (fərqlər və seçim)</li><li>Optional (?) və Readonly xassələri</li><li>Union Types ('light' | 'dark') və Literal Types</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 63</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Funksiyalarda parametrlərin və qaytarılan dəyərin tiplənməsi</li><li>Generics Əsasları: Yenidən istifadə edilən dinamik tiplər</li><li>Praktiki nümunələrlə TypeScript məşqləri</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 64</td>
+            <td class="col-topics">
+                <ul>
+                    <li>React ilə TypeScript: Vite + TS layihəsi qurmaq</li><li>Komponent Props tipləri: interface Props { ... }</li><li>children prop-unun tiplənməsi (React.ReactNode)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 65</td>
+            <td class="col-topics">
+                <ul>
+                    <li>React Hooks ilə TypeScript: useState<User | null>(null)</li><li>useRef<HTMLInputElement>(null) tiplənməsi</li><li>Form və Button Hadisə Tipləri: React.ChangeEvent, React.FormEvent</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 66</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Axios cavablarının TypeScript ilə tiplənməsi: axios.get<Product[]></li><li>Redux Toolkit + TypeScript: RootState və AppDispatch tipləri</li><li>Slice içində PayloadAction<T> istifadəsi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 67 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 4 Üzrə Təkrar & Praktika (Buffer 4): TypeScript Təməlləri, Interface/Type, React+TS inteqrasiyası təkrarı</li><li>Orta Dönem Layihəsinə (Midterm) hazırlıq, tələbələrin sualları və texniki dəstək</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> TypeScript Utility Tipləri (Partial, Pick, Omit) və build xətalarının həlli</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 68</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Orta Dönem Layihəsinə Başlanğıc: Tələblər və Komponent Arxitekturası</li><li>Type fayllarının qovluqda ayrılması (/types/index.ts)</li><li>React Router və Layout-un TypeScript ilə qurulması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 69</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Orta Dönem Layihəsi: API məlumatlarının tipli çəkilməsi və Redux inteqrasiyası</li><li>Responsive mobil dizaynın cilalanması</li><li>Sinifdə canlı kodlaşdırma və sual-cavab</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 70</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Orta Dönem Layihəsinin Tamamlanması və Code Review</li><li>Layihənin Vercel-də yayımlanması və GitHub README yazımı</li><li>CV üçün layihə təsvirinin hazırlanması</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 5: Backend Development with Node.js and Express</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Giriş</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Backend nədir? Frontend ilə fərqi və əlaqəsi</li><li>HTTP necə işləyir? Client → Request → Server → Response dövrü</li><li>Client-Server arxitekturası və JSON məlumat formatı</li><li>Əsas status kodları: 200 (OK), 201 (Created), 400 (Bad Request), 404 (Not Found), 500 (Server Error)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 71</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Node.js nədir? Brauzerdən kənarda JavaScript icrası</li><li>Terminal ilə işləmək, ilk app.js faylını işə salmaq</li><li>Daxili (built-in) modullar: fs (fayl sistemi) və path</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 72</td>
+            <td class="col-topics">
+                <ul>
+                    <li>NPM nədir? package.json və node_modules anlayışı</li><li>nodemon quraşdırılması (avtomatik server restart)</li><li>Sadə skriptlər və package.json konfiqurasiyası</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 73</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Express.js giriş: Niyə təmiz Node.js yox, Express?</li><li>İlk Express serveri: app.listen, ilk app.get('/') marşrutu</li><li>req (Request) və res (Response) obyektlərini anlamaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 74</td>
+            <td class="col-topics">
+                <ul>
+                    <li>REST API marşrutları: GET və POST sorğuları</li><li>express.json() middleware — JSON body oxumaq</li><li>Postman ilə GET və POST sorğularını test etmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 75</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Dinamik marşrutlar: URL parametrləri (req.params.id)</li><li>Query string: Filtrləmə və axtarış (req.query)</li><li>PUT və DELETE sorğuları ilə tam CRUD dövrü</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 76</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Middleware anlayışı: Funksiyalar arası körpü (req, res, next)</li><li>Sadə custom logger middleware yazmaq</li><li>CORS nədir? cors paketinin quraşdırılması və izahı</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 77</td>
+            <td class="col-topics">
+                <ul>
+                    <li>MVC Arxitekturasına giriş: Niyə tək faylda yazmırıq?</li><li>Express Router: Marşrutları ayrı fayllara bölmək (/routes)</li><li>Controller funksiyaları: Məntiqi ayırmaq (/controllers)</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 78</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Xətaların qarşısını almaq: try-catch blokları</li><li>Serverin çökməməsi üçün Global Error Handling Middleware</li><li>404 Not Found xəta marşrutu yaratmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 79 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 5 Üzrə Təkrar & Praktika (Buffer 5): Node.js & Express.js Əsasları, MVC arxitekturası və Middleware təkrarı</li><li>Postman ilə REST API sorğularının test edilməsi və xətaların həlli</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> .env mühit dəyişənləri və layihə qovluq strukturu bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 80</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Praktika Dərsi: Express ilə mock datalı tam CRUD API qurmaq</li><li>Bütün CRUD əməliyyatlarının Postman-da test edilməsi</li><li>Tələbə xətalarının sinifdə birgə yoxlanılması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 81</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Frontend inteqrasiyası: React layihəsindən Express API-yə sorğu</li><li>CORS xətalarının aradan qaldırılması və testlər</li><li>Loading və Error vəziyyətlərinin React-də göstərilməsi</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 6: MongoDB, Mongoose</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 82</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Verilənlər bazası nədir? NoSQL və Document modeli nə deməkdir?</li><li>MongoDB Atlas (Cloud) hesabı açmaq və pulsuz klaster yaratmaq</li><li>MongoDB Compass ilə bazaya vizual qoşulmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 83</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Mongoose nədir? ODM anlayışı və Express-ə qoşulma (mongoose.connect)</li><li>İlk Şema (Schema) və Model tərifi (məsələn: Product modeli)</li><li>Mongoose data tipləri: String, Number, Boolean, Date</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 84</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Mongoose ilə Data Yaratmaq: Model.create()</li><li>Məlumatları Oxumaq: Model.find(), Model.findById()</li><li>Postman-dan göndərilən datanı birbaşa MongoDB-yə yazmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 85</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Məlumatı Yeniləmək: findByIdAndUpdate() və new: true fərqi</li><li>Məlumatı Silmək: findByIdAndDelete()</li><li>Tam MongoDB CRUD API-nin tamamlanması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 86</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Mongoose Validasiyaları: required, trim, min, max, default</li><li>Təkrarlanan dəyərlər: unique: true və indeks xətaları</li><li>Validasiya xətalarını istifadəçiyə aydın JSON kimi qaytarmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 87</td>
+            <td class="col-topics">
+                <ul>
+                    <li>İstifadəçi Qeydiyyatı (Auth 1): Parolların açıq saxlanılmaması qaydası</li><li>bcryptjs ilə parolu hash-ləmək (salt + hash məntiqi)</li><li>Qeydiyyat (Register) endpoint-inin yazılması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 88</td>
+            <td class="col-topics">
+                <ul>
+                    <li>İstifadəçi Girişi (Auth 2): Parolun yoxlanılması (bcrypt.compare)</li><li>JWT (JSON Web Token) nədir? Token strukturu (Header, Payload, Secret)</li><li>Giriş (Login) endpoint-indən JWT token qaytarmaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 89</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Qorunan Marşrutlar: authMiddleware funksiyasının yazılması</li><li>Request Header-dən Token-i götürmək (Bearer token)</li><li>jwt.verify() ilə yoxlama və req.user təyini</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 90</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Kolleksiyalar arası Əlaqə: ref və ObjectId anlayışı</li><li>Bir istifadəçiyə aid məhsullar/qeydlər yaratmaq</li><li>.populate() metodu ilə əlaqəli məlumatları birlikdə çəkmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 91 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 6 Üzrə Təkrar & Praktika (Buffer 6): MongoDB, Mongoose Modelləri, CRUD və JWT Auth təkrarı</li><li>Qorunan marşrutlar (Protected Routes) və tələbələrin API layihələrinin yoxlanışı</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> Multer ilə fayl yükləmə və Cloudinary servisi ilə iş bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 92</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Praktika: React Frontend-i Auth + MongoDB API-yə bağlamaq</li><li>Token-i localStorage-də saxlamaq və Axios headers-ə əlavə etmək</li><li>Tam işləyən MERN tətbiqi icmalı və test</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 7: Database Fundamentals (SQL and NoSQL, MySQL)</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 93</td>
+            <td class="col-topics">
+                <ul>
+                    <li>SQL və Əlaqəli (Relational) Bazalar nədir? NoSQL ilə fərqi</li><li>Cədvəl, Sətir (Row) və Sütun (Column) məntiqi (Excel bənzətməsi)</li><li>MySQL quraşdırılması və DBeaver / MySQL Workbench interfeysi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 94</td>
+            <td class="col-topics">
+                <ul>
+                    <li>SQL Dili: İlk verilənlər bazası və cədvəli (CREATE DATABASE, CREATE TABLE)</li><li>Əsas Data Tipləri: INT, VARCHAR, BOOLEAN, TIMESTAMP</li><li>PRIMARY KEY və AUTO_INCREMENT anlayışları</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 95</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Cədvələ məlumat daxil etmək: INSERT INTO sintaksisi</li><li>Məlumatları oxumaq: SELECT * FROM, spesifik sütunları seçmək</li><li>Şərtlə süzgəcləmək: WHERE, AND, OR, LIKE</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 96</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Məlumatları yeniləmək və silmək: UPDATE və DELETE (WHERE-in vacibliyi!)</li><li>Sıralama və limit: ORDER BY id DESC, LIMIT, OFFSET</li><li>MySQL-də təhlükəsizlik və ehtiyat tədbirləri</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 97</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Cədvəllər arası əlaqələr: FOREIGN KEY nədir?</li><li>One-to-Many əlaqəsi: İstifadəçilər və Sifarişlər (Users & Orders)</li><li>Sadə ERD (Entity Relationship) diaqramını oxumaq</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 98</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Cədvəlləri birləşdirmək: INNER JOIN necə işləyir?</li><li>LEFT JOIN nə zaman lazımdır?</li><li>Praktiki nümunə: İstifadəçi adı ilə onun verdiyi sifarişləri bir sorğuda çəkmək</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 99</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Node.js ilə MySQL əlaqəsi: mysql2 paketi və Connection Pool</li><li>Parametrli sorğular (Prepared Statements) ilə SQL Injection-dan qorunma</li><li>Sadə GET və POST marşrutunun MySQL ilə yazılması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 100 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 7 Üzrə Təkrar & Praktika (Buffer 7): SQL Dili, Əlaqəli Cədvəllər (FOREIGN KEY) və JOIN sorğuları təkrarı</li><li>Node.js + MySQL inteqrasiyası üzrə canlı praktika, sual-cavab və bazaların müqayisəsi</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> ORM (Sequelize / Prisma) konsepti və SQL vs NoSQL seçim bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+    <div class="module">
+        <div class="module-title">Modul 8: Final Project and Deployment</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-num">Dərs №</th>
+                    <th class="col-topics">Tədris Edilən Mövzular</th>
+                </tr>
+            </thead>
+            <tbody>
+  
+        <tr>
+            <td class="col-num">Dərs 101</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Production mühiti nədir? Development-dən fərqləri</li><li>Mühit dəyişənləri və .env.production tənzimləmələri</li><li>Render.com / Railway servislərində Node.js API-nin canlıya çıxarılması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 102</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Frontend Deployment: Vercel və Netlify ilə React saytının canlıya atılması</li><li>Canlı Frontend ilə Canlı Backend-in əlaqələndirilməsi (Production API URL)</li><li>Custom Domain və HTTPS/SSL sertifikatlarının izahı</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr class="review-row">
+            <td class="col-num">Dərs 103 🔄</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Modul 8 Üzrə Təkrar & Praktika (Buffer 8): Full-Stack Veb Arxitekturası, Deployment təkrarı və Final Layihə planlaması</li><li>Tələbələrin Final layihə ideyalarının müzakirəsi, DB diaqramlarının qurulması və konsultasiya</li><li style="color:#15803d; font-weight:600; margin-top:2px;"><span class="self-study-badge">Özünü Öyrənmə</span> Docker Konteyner texnologiyası əsasları və Dockerfile bələdçisi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 104</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Final Layihəsinin Başlanğıcı: Mövzu seçimi və tələblər siyahısı</li><li>Verilənlər bazası strukturunun və API marşrutlarının xəritəsinin çəkilməsi</li><li>Git və GitHub: Branching (budaqlanma) və komanda ilə iş qaydaları</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 105</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Final Layihə — Backend İnteqrasiyası: Auth + DB + Controllers</li><li>Postman ilə bütün API endpoint-lərinin tam testi</li><li>Backend-in Render.com servisinə deploy olunması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 106</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Final Layihə — Frontend İnteqrasiyası: React + TS səhifələri</li><li>Auth Context və Token axını (Protected Routes)</li><li>Loading, Error və Empty State dizaynlarının tamamlanması</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 107</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Final Layihə — Production Deploy: Frontend-in Vercel-də yayımlanması</li><li>Canlı mühitdə bütün funksiyaların son testi</li><li>Responsive mobil dizayn və konsol xətalarının tam təmizlənməsi</li>
+                </ul>
+            </td>
+        </tr>
+    
+        <tr>
+            <td class="col-num">Dərs 108</td>
+            <td class="col-topics">
+                <ul>
+                    <li>Prezentasiya və Karyera Hazırlığı: Peşəkar GitHub README yazımı</li><li>Layihənin CV-yə və LinkedIn-ə əlavə olunması forması</li><li>Canlı nümayiş (Demo) çıxışına hazırlıq və tələbə məsləhətləri</li>
+                </ul>
+            </td>
+        </tr>
+    
+            </tbody>
+        </table>
+    </div>
+  
+</body>
+</html>

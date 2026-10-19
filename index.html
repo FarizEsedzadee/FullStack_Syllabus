@@ -1,23 +1,52 @@
 <!DOCTYPE html>
-<html lang="az">
+<html lang="az" class="h-full bg-slate-50 antialiased">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-End Development Kursu - Syllabus</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="./tailwind.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full-Stack Web Development — Tədris Planı | Fariz Əsədzadə</title>
+  <meta name="description" content="9 aylıq (108 dərslik) intensiv Full-Stack Web Development proqramı. HTML, CSS, JavaScript, React, TypeScript, Node.js, Express, MongoDB, MySQL, Docker və DevOps.">
+  <meta name="author" content="Fariz Əsədzadə">
+
+  <!-- Inter Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    /* Clean custom utility styles */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    ::selection {
+      background-color: #e2e8f0;
+      color: #0f172a;
+    }
+  </style>
 </head>
-<body class="bg-gray-50">
-    <header class="bg-gradient-to-r from-primary-600 to-primary-700 text-white py-12 px-4">
-        <div class="max-w-6xl mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Web Developer Syllabus</h1>
-            <p class="text-xl opacity-90">Instructor: Fariz Esedzade</p>
-        </div>
-    </header>
+<body class="min-h-full flex flex-col text-slate-800 font-sans selection:bg-slate-200">
+  <div id="app" class="flex-1 flex flex-col"></div>
 
-    <main></main>
-
-    <script src="./script.js"></script>
+  <!-- Data and Application Scripts -->
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
